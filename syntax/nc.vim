@@ -40,6 +40,7 @@ syn keyword ncInterface		module implementation configuration
 syn keyword ncWiring		provides uses components new
 syn keyword ncConstant		SUCCESS FAIL ESIZE ECANCEL EOFF EBUSY EINVAL ERETRY ERESERVE EALREADY ENOMEM ENOACK " From TinyError.h
 syn keyword ncBoolean		TRUE FALSE
+syn keyword ncStatement         atomic
 
 " Default highlighting
 command -nargs=+ HiLink hi def link <args>
@@ -51,6 +52,7 @@ HiLink ncpreproc	structure
 HiLink ncinterface	structure
 HiLink ncwiring		statement
 HiLink ncconstant	constant
+HiLink ncstatement      statement
 delcommand HiLink
 
 let b:current_syntax = "nc"
