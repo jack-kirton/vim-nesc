@@ -38,7 +38,7 @@ syn keyword ncCall		call post fire as signal
 syn keyword ncPreProc		includes
 syn keyword ncInterface		module implementation configuration
 syn keyword ncWiring		provides uses components new
-syn keyword ncConstant		SUCCESS FAIL
+syn keyword ncConstant		SUCCESS FAIL ESIZE ECANCEL EOFF EBUSY EINVAL ERETRY ERESERVE EALREADY ENOMEM ENOACK " From TinyError.h
 syn keyword ncBoolean		TRUE FALSE
 
 " Default highlighting
